@@ -417,7 +417,7 @@
 <script src="./../js/template-web.js"></script>
 <script>
     var oajax = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
-    oajax.open('get', 'http://192.168.1.8:3000/play/new', true);
+    oajax.open('get', './../json/play.json', true);
     oajax.send();
     oajax.onreadystatechange = function () {
         // console.log(oajax.readyState);
