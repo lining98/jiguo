@@ -169,7 +169,7 @@ h1 {
 }
 
 .kuwan .pl_wrap .pl_list .tb_list li img:hover {
-  transform: scale(1.2) rotate(-360deg);
+  transform: scale(1.2) rotate(360deg);
 }
 
 .kuwan .pl_wrap .pl_list .m_list {
